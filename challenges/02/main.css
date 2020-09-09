@@ -1,0 +1,21 @@
+/* Use flexbox to align the divs in a row. Reverse the order of the divs. */
+
+
+div {
+    height: 100px;
+    width: 60px;
+    background-color: darkgray;
+    margin: 1.5em;
+    border: 2px solid red;
+    text-align: center;
+}
+
+.flex-container {
+    border: 5px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-flow: row-reverse;
+
+}
